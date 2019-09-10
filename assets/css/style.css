@@ -1,0 +1,82 @@
+body {
+    background-image: url("../images/rupee-the-legend-of-zelda-minimalism-video-games-2K-wallpaper-middle-size.jpg");
+    background-repeat: repeat;
+  }
+  
+  #screen {
+    overflow: auto;
+  }
+  
+  #screen div {
+    float: left;
+  }
+  
+  #title {
+    width: 400px;
+    padding: 4px;
+    margin-bottom: 10px;
+    color: ghostwhite;
+    background-color: orangered;
+  }
+  
+  #rules-area {
+    width: 400px;
+    height: 400px;
+    padding: 4px;
+    margin-bottom: 10px;
+    color: green;
+    background-color: tan;
+  }
+  
+  #random-area {
+    width: 200px;
+    height: 100px;
+    padding: 4px;
+    font-size: 3vw;
+    color: ghostwhite;
+    background-color: orangered;
+  }
+  
+  #score-area {
+    width: 210px;
+    height: 100px;
+    padding: 4px;
+    color: ghostwhite;
+    background-color: orangered;
+  }
+  
+  #score-title {
+    width: 210px;
+    padding: 4px;
+    margin-bottom: 10px;
+    color: white;
+    background-color:orangered ;
+  }
+  
+  .rupeess-button {
+    display: inline;
+  }
+  
+  .rupee-img {
+    width: 80px;
+    height: 80px;
+    cursor: pointer;
+    background-color: white;
+    border: solid;
+    border-color: orangered;
+  }
+  
+  #score-number {
+    font-size: 3vw;
+  }
+  
+  #win-area {
+    height: 100px;
+    padding: 4px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    background-color: orangered;
+    color: ghostwhite;
+  }
+  
+  
