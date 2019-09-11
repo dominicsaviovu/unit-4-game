@@ -67,18 +67,18 @@ $(document).ready(function() {
 
   function renderRupees() {
     for (var key in rupees) {
-      var rupeesDiv = $("<div class='rupees-button' data-name='" + key + "'>");
-      var rupeesImg = $("<img alt='image' class='rupees-img'>").attr("src", rupees[key].imageUrl);
-      rupeesDiv.append(rupeesImg);
-      $("#rupees-area").append(rupeesDiv);
+    var rupeesDiv = $("<div class='rupees-button' data-name='" + key + "'>");
+    var rupeesImg = $("<img alt='image' class='rupees-img'>").attr("src", rupees[key].imageUrl);
+    rupeesDiv.append(rupeesImg);
+    $("#rupees-area").append(rupeesDiv);
     }
   }
 
-  function updateMatchingNumber(rupees) {
-    yourMatchingNumber += rupees[rupees.attr("data-name")].points;
+  function updateMatchingNumber(rupee) {
+    yourMatchingNumber += rupees[rupee.attr("data-name")].points;
   }
 
-  function renderMatchingNumber() {
+  function renderMatchingNumber() { 
     var scoreNumDiv = $("<div id='score-number'>").text(yourMatchingNumber);
     $("#score-area").html();
     $("#score-area").html(scoreNumDiv);
@@ -92,12 +92,10 @@ $(document).ready(function() {
   $(".rupees-button").on("click", function(event) {
     updateMatchingNumber($(this));
     renderMatchingNumber();
-
     if (yourMatchingNumber === randomNum) {
       wins++;
       setGame();
       updateDom(true);
-      
     }
 
     else if (yourMatchingNumber > randomNum) {
