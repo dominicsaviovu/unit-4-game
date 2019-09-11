@@ -30,7 +30,7 @@ body {
   
   #random-area {
     width: 200px;
-    height: 75px;
+    height: 100px;
     padding: 4px;
     font-size: 3vw;
     color: ghostwhite;
@@ -71,7 +71,7 @@ body {
   }
   
   #win-area {
-    height: 75px;
+    height: 100px;
     padding: 4px;
     margin-bottom: 10px;
     margin-left: 10px;
