@@ -21,7 +21,7 @@ body {
   
   #rules-area {
     width: 400px;
-    height: 400px;
+    height: 280px;
     padding: 4px;
     margin-bottom: 10px;
     color: green;
@@ -30,7 +30,7 @@ body {
   
   #random-area {
     width: 200px;
-    height: 100px;
+    height: 75px;
     padding: 4px;
     font-size: 3vw;
     color: ghostwhite;
@@ -39,7 +39,7 @@ body {
   
   #score-area {
     width: 210px;
-    height: 100px;
+    height: 50px;
     padding: 4px;
     color: ghostwhite;
     background-color: orangered;
@@ -71,7 +71,7 @@ body {
   }
   
   #win-area {
-    height: 100px;
+    height: 75px;
     padding: 4px;
     margin-bottom: 10px;
     margin-left: 10px;
