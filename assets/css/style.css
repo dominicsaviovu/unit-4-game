@@ -60,7 +60,7 @@ body {
   .rupee-img {
     width: 80px;
     height: 80px;
-    cursor: pointer;
+    cursor: help;
     background-color: white;
     border: solid;
     border-color: orangered;
